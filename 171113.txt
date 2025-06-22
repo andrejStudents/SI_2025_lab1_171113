@@ -1,0 +1,23 @@
+git fetch origin
+git checkout feature/find-all-completed-tasks
+git add SI2025Lab1Main.java
+git commit -m "feat: logic to return completed tasks"
+git push origin
+
+git checkout feature/list-tasks-sorted-by-name
+git add SI2025Lab1Main.java
+git commit -m "feat: logic for sortTasksByName"
+git push origin
+
+git checkout feature/remove-a-task-by-name
+git add SI2025Lab1Main.java
+git commit -m "feat: logic for removeTask"
+git push origin
+
+git checkout main
+git fetch origin
+git pull
+git merge feature/find-all-completed-tasks
+git push origin main
+
+git add .

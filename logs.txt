@@ -1,0 +1,15 @@
+*   45321ce (HEAD -> main, origin/main) Merge branch 'feature/find-all-completed-tasks'
+|\  
+| * 1d413bf (origin/feature/find-all-completed-tasks, feature/find-all-completed-tasks) feat: logic to return completed tasks
+* |   c84419c Merge pull request #11 from andrejStudents/feature/list-tasks-sorted-by-name
+|\ \  
+| * | c3b6561 (origin/feature/list-tasks-sorted-by-name, feature/list-tasks-sorted-by-name) feat: logic for sortTasksByName
+| |/  
+* |   3079eac Merge pull request #12 from andrejStudents/feature/remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 1776444 (origin/feature/remove-a-task-by-name, feature/remove-a-task-by-name) feat: logic for removeTask
+|/  
+* 78db7ed Add starter code
+* e923ccd Initial commit
